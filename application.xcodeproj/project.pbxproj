@@ -14,6 +14,36 @@
 		26065D6421F1D09300CAEBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26065D6221F1D09300CAEBBB /* LaunchScreen.storyboard */; };
 		26065D6F21F1D09400CAEBBB /* applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26065D6E21F1D09400CAEBBB /* applicationTests.swift */; };
 		26065D7A21F1D09400CAEBBB /* applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26065D7921F1D09400CAEBBB /* applicationUITests.swift */; };
+		2622CCD121F375AC00BA71A6 /* PublishVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */; };
+		2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */; };
+		2622CCD521F4742C00BA71A6 /* PublishVioceVIewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */; };
+		265D522321F5A009001730D1 /* DiaryScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D522221F5A009001730D1 /* DiaryScrollVIew.swift */; };
+		265D522521F5A08D001730D1 /* DiarySegement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D522421F5A08D001730D1 /* DiarySegement.swift */; };
+		2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */; };
+		2668A3D821F5AE69003C7E75 /* DiaryVieeController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */; };
+		267384F821F1D82000CCBC59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384F721F1D82000CCBC59 /* HomeViewController.swift */; };
+		267384FA21F1D83100CCBC59 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384F921F1D83100CCBC59 /* ViewController2.swift */; };
+		267384FC21F1D83B00CCBC59 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384FB21F1D83A00CCBC59 /* PublishViewController.swift */; };
+		267384FE21F1D84600CCBC59 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384FD21F1D84600CCBC59 /* BaseViewController.swift */; };
+		2673850021F1D85000CCBC59 /* skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384FF21F1D85000CCBC59 /* skin.swift */; };
+		2673850221F1D85700CCBC59 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850121F1D85600CCBC59 /* UIKit+Extension.swift */; };
+		2673850421F1D86100CCBC59 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850321F1D86100CCBC59 /* MyViewController.swift */; };
+		2673850821F1D88700CCBC59 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850721F1D88600CCBC59 /* TabBarViewController.swift */; };
+		2673850A21F1D8B600CCBC59 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850921F1D8B600CCBC59 /* WordViewController.swift */; };
+		2673850C21F1D8C500CCBC59 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850B21F1D8C400CCBC59 /* CameraViewController.swift */; };
+		2673850F21F2040000CCBC59 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673850E21F2040000CCBC59 /* DiaryViewController.swift */; };
+		2673851321F2058A00CCBC59 /* SightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851221F2058900CCBC59 /* SightViewController.swift */; };
+		2673851621F2162600CCBC59 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851521F2162600CCBC59 /* MessageViewController.swift */; };
+		2673851921F2324900CCBC59 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851821F2324900CCBC59 /* SearchViewController.swift */; };
+		2673851B21F2326E00CCBC59 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851A21F2326E00CCBC59 /* SearchBar.swift */; };
+		2673851E21F3023200CCBC59 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851D21F3023200CCBC59 /* SettingViewController.swift */; };
+		2673852021F313BD00CCBC59 /* MyIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673851F21F313BD00CCBC59 /* MyIconViewController.swift */; };
+		2673852221F313D500CCBC59 /* MyLikeVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852121F313D500CCBC59 /* MyLikeVIewController.swift */; };
+		2673852421F313F800CCBC59 /* MyStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852321F313F800CCBC59 /* MyStorageViewController.swift */; };
+		2673852621F3140D00CCBC59 /* MyFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852521F3140D00CCBC59 /* MyFriendViewController.swift */; };
+		2673852921F3170C00CCBC59 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852821F3170C00CCBC59 /* RegisterViewController.swift */; };
+		2673852B21F3528500CCBC59 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852A21F3528500CCBC59 /* MyView.swift */; };
+		9D2B349B35118D062D09520C /* Pods_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE12A9ECED8145CAC308948 /* Pods_application.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00948492CEC9BE69503085DE /* Pods-application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-application.release.xcconfig"; path = "Pods/Target Support Files/Pods-application/Pods-application.release.xcconfig"; sourceTree = "<group>"; };
 		26065D5621F1D08500CAEBBB /* application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26065D5921F1D08500CAEBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26065D5B21F1D08500CAEBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +78,37 @@
 		26065D7521F1D09400CAEBBB /* applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26065D7921F1D09400CAEBBB /* applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applicationUITests.swift; sourceTree = "<group>"; };
 		26065D7B21F1D09400CAEBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVoiceViewController.swift; sourceTree = "<group>"; };
+		2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVoiceView.swift; sourceTree = "<group>"; };
+		2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVioceVIewController2.swift; sourceTree = "<group>"; };
+		265D522221F5A009001730D1 /* DiaryScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryScrollVIew.swift; sourceTree = "<group>"; };
+		265D522421F5A08D001730D1 /* DiarySegement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySegement.swift; sourceTree = "<group>"; };
+		2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController1.swift; sourceTree = "<group>"; };
+		2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryVieeController2.swift; sourceTree = "<group>"; };
+		267384F721F1D82000CCBC59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		267384F921F1D83100CCBC59 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		267384FB21F1D83A00CCBC59 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		267384FD21F1D84600CCBC59 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		267384FF21F1D85000CCBC59 /* skin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = skin.swift; sourceTree = "<group>"; };
+		2673850121F1D85600CCBC59 /* UIKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		2673850321F1D86100CCBC59 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		2673850721F1D88600CCBC59 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = application/TabBarViewController.swift; sourceTree = SOURCE_ROOT; };
+		2673850921F1D8B600CCBC59 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		2673850B21F1D8C400CCBC59 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2673850E21F2040000CCBC59 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		2673851221F2058900CCBC59 /* SightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightViewController.swift; sourceTree = "<group>"; };
+		2673851521F2162600CCBC59 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2673851821F2324900CCBC59 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2673851A21F2326E00CCBC59 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		2673851D21F3023200CCBC59 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2673851F21F313BD00CCBC59 /* MyIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIconViewController.swift; sourceTree = "<group>"; };
+		2673852121F313D500CCBC59 /* MyLikeVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLikeVIewController.swift; sourceTree = "<group>"; };
+		2673852321F313F800CCBC59 /* MyStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStorageViewController.swift; sourceTree = "<group>"; };
+		2673852521F3140D00CCBC59 /* MyFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendViewController.swift; sourceTree = "<group>"; };
+		2673852821F3170C00CCBC59 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2673852A21F3528500CCBC59 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		35C5B6BC0E6954322C707BF5 /* Pods-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-application/Pods-application.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE12A9ECED8145CAC308948 /* Pods_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B349B35118D062D09520C /* Pods_application.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +144,8 @@
 				26065D6D21F1D09400CAEBBB /* applicationTests */,
 				26065D7821F1D09400CAEBBB /* applicationUITests */,
 				26065D5721F1D08500CAEBBB /* Products */,
+				293F110A74B14D46B406897E /* Pods */,
+				7F0E94507E7116532090630B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +162,8 @@
 		26065D5821F1D08500CAEBBB /* application */ = {
 			isa = PBXGroup;
 			children = (
+				267384F221F1D5CD00CCBC59 /* New Group1 */,
+				267384F121F1D5C600CCBC59 /* Classes */,
 				26065D5921F1D08500CAEBBB /* AppDelegate.swift */,
 				26065D5B21F1D08500CAEBBB /* ViewController.swift */,
 				26065D5D21F1D08500CAEBBB /* Main.storyboard */,
@@ -125,6 +192,162 @@
 			path = applicationUITests;
 			sourceTree = "<group>";
 		};
+		267384F121F1D5C600CCBC59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2673850721F1D88600CCBC59 /* TabBarViewController.swift */,
+				2673852721F3169500CCBC59 /* Register */,
+				2673851C21F3021F00CCBC59 /* Setting */,
+				2673851721F2318700CCBC59 /* Search */,
+				2673851421F2160D00CCBC59 /* Message */,
+				2673851121F2056F00CCBC59 /* Sight */,
+				2673851021F204B100CCBC59 /* Map */,
+				2673850D21F203E400CCBC59 /* Diary */,
+				2673850621F1D87400CCBC59 /* Word */,
+				2673850521F1D86A00CCBC59 /* Camera */,
+				267384F321F1D5D200CCBC59 /* Home */,
+				267384F421F1D5D500CCBC59 /* Publish */,
+				267384F521F1D5D800CCBC59 /* My */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		267384F221F1D5CD00CCBC59 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				2673850121F1D85600CCBC59 /* UIKit+Extension.swift */,
+				267384FF21F1D85000CCBC59 /* skin.swift */,
+				267384FD21F1D84600CCBC59 /* BaseViewController.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		267384F321F1D5D200CCBC59 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				267384F721F1D82000CCBC59 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		267384F421F1D5D500CCBC59 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				267384FB21F1D83A00CCBC59 /* PublishViewController.swift */,
+				2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */,
+				2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */,
+				2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		267384F521F1D5D800CCBC59 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				2673852A21F3528500CCBC59 /* MyView.swift */,
+				2673850321F1D86100CCBC59 /* MyViewController.swift */,
+				2673851F21F313BD00CCBC59 /* MyIconViewController.swift */,
+				2673852121F313D500CCBC59 /* MyLikeVIewController.swift */,
+				2673852321F313F800CCBC59 /* MyStorageViewController.swift */,
+				2673852521F3140D00CCBC59 /* MyFriendViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		2673850521F1D86A00CCBC59 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				2673850B21F1D8C400CCBC59 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		2673850621F1D87400CCBC59 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				2673850921F1D8B600CCBC59 /* WordViewController.swift */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		2673850D21F203E400CCBC59 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				2673850E21F2040000CCBC59 /* DiaryViewController.swift */,
+				265D522221F5A009001730D1 /* DiaryScrollVIew.swift */,
+				265D522421F5A08D001730D1 /* DiarySegement.swift */,
+				2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */,
+				2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		2673851021F204B100CCBC59 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				267384F921F1D83100CCBC59 /* ViewController2.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2673851121F2056F00CCBC59 /* Sight */ = {
+			isa = PBXGroup;
+			children = (
+				2673851221F2058900CCBC59 /* SightViewController.swift */,
+			);
+			path = Sight;
+			sourceTree = "<group>";
+		};
+		2673851421F2160D00CCBC59 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2673851521F2162600CCBC59 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2673851721F2318700CCBC59 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2673851821F2324900CCBC59 /* SearchViewController.swift */,
+				2673851A21F2326E00CCBC59 /* SearchBar.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2673851C21F3021F00CCBC59 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2673851D21F3023200CCBC59 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		2673852721F3169500CCBC59 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2673852821F3170C00CCBC59 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		293F110A74B14D46B406897E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35C5B6BC0E6954322C707BF5 /* Pods-application.debug.xcconfig */,
+				00948492CEC9BE69503085DE /* Pods-application.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F0E94507E7116532090630B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE12A9ECED8145CAC308948 /* Pods_application.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26065D7E21F1D09400CAEBBB /* Build configuration list for PBXNativeTarget "application" */;
 			buildPhases = (
+				370AA52E0663E10B1760BA7F /* [CP] Check Pods Manifest.lock */,
 				26065D5221F1D08500CAEBBB /* Sources */,
 				26065D5321F1D08500CAEBBB /* Frameworks */,
 				26065D5421F1D08500CAEBBB /* Resources */,
+				B9F0C0144CF9F306378743CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +476,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		370AA52E0663E10B1760BA7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F0C0144CF9F306378743CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26065D5221F1D08500CAEBBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2673852B21F3528500CCBC59 /* MyView.swift in Sources */,
+				2668A3D821F5AE69003C7E75 /* DiaryVieeController2.swift in Sources */,
+				2622CCD121F375AC00BA71A6 /* PublishVoiceViewController.swift in Sources */,
+				2673852621F3140D00CCBC59 /* MyFriendViewController.swift in Sources */,
+				267384FC21F1D83B00CCBC59 /* PublishViewController.swift in Sources */,
+				2673852021F313BD00CCBC59 /* MyIconViewController.swift in Sources */,
+				265D522321F5A009001730D1 /* DiaryScrollVIew.swift in Sources */,
 				26065D5C21F1D08500CAEBBB /* ViewController.swift in Sources */,
+				2673852421F313F800CCBC59 /* MyStorageViewController.swift in Sources */,
+				267384FA21F1D83100CCBC59 /* ViewController2.swift in Sources */,
+				2673850F21F2040000CCBC59 /* DiaryViewController.swift in Sources */,
+				2673851621F2162600CCBC59 /* MessageViewController.swift in Sources */,
+				2673851E21F3023200CCBC59 /* SettingViewController.swift in Sources */,
+				2673852221F313D500CCBC59 /* MyLikeVIewController.swift in Sources */,
 				26065D5A21F1D08500CAEBBB /* AppDelegate.swift in Sources */,
+				2673850A21F1D8B600CCBC59 /* WordViewController.swift in Sources */,
+				2673850C21F1D8C500CCBC59 /* CameraViewController.swift in Sources */,
+				265D522521F5A08D001730D1 /* DiarySegement.swift in Sources */,
+				2673850421F1D86100CCBC59 /* MyViewController.swift in Sources */,
+				2673852921F3170C00CCBC59 /* RegisterViewController.swift in Sources */,
+				2673851321F2058A00CCBC59 /* SightViewController.swift in Sources */,
+				2673851921F2324900CCBC59 /* SearchViewController.swift in Sources */,
+				267384F821F1D82000CCBC59 /* HomeViewController.swift in Sources */,
+				267384FE21F1D84600CCBC59 /* BaseViewController.swift in Sources */,
+				2673850221F1D85700CCBC59 /* UIKit+Extension.swift in Sources */,
+				2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */,
+				2622CCD521F4742C00BA71A6 /* PublishVioceVIewController2.swift in Sources */,
+				2673850821F1D88700CCBC59 /* TabBarViewController.swift in Sources */,
+				2673851B21F2326E00CCBC59 /* SearchBar.swift in Sources */,
+				2673850021F1D85000CCBC59 /* skin.swift in Sources */,
+				2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +731,7 @@
 		};
 		26065D7F21F1D09400CAEBBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C5B6BC0E6954322C707BF5 /* Pods-application.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +750,7 @@
 		};
 		26065D8021F1D09400CAEBBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00948492CEC9BE69503085DE /* Pods-application.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
