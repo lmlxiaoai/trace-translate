@@ -21,6 +21,7 @@
 		265D522521F5A08D001730D1 /* DiarySegement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D522421F5A08D001730D1 /* DiarySegement.swift */; };
 		2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */; };
 		2668A3D821F5AE69003C7E75 /* DiaryVieeController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */; };
+		2668A3DA21F61ACA003C7E75 /* PublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D921F61ACA003C7E75 /* PublishView.swift */; };
 		267384F821F1D82000CCBC59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384F721F1D82000CCBC59 /* HomeViewController.swift */; };
 		267384FA21F1D83100CCBC59 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384F921F1D83100CCBC59 /* ViewController2.swift */; };
 		267384FC21F1D83B00CCBC59 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267384FB21F1D83A00CCBC59 /* PublishViewController.swift */; };
@@ -85,6 +86,7 @@
 		265D522421F5A08D001730D1 /* DiarySegement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySegement.swift; sourceTree = "<group>"; };
 		2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController1.swift; sourceTree = "<group>"; };
 		2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryVieeController2.swift; sourceTree = "<group>"; };
+		2668A3D921F61ACA003C7E75 /* PublishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishView.swift; sourceTree = "<group>"; };
 		267384F721F1D82000CCBC59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		267384F921F1D83100CCBC59 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		267384FB21F1D83A00CCBC59 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */,
 				2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */,
 				2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */,
+				2668A3D921F61ACA003C7E75 /* PublishView.swift */,
 			);
 			path = Publish;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				2673850821F1D88700CCBC59 /* TabBarViewController.swift in Sources */,
 				2673851B21F2326E00CCBC59 /* SearchBar.swift in Sources */,
 				2673850021F1D85000CCBC59 /* skin.swift in Sources */,
+				2668A3DA21F61ACA003C7E75 /* PublishView.swift in Sources */,
 				2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

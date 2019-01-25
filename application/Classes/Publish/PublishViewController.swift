@@ -11,10 +11,19 @@ import UIKit
 
 class PublishViewController: UIViewController {
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.clear
-        self.title = ""
+        self.view.backgroundColor = .clear
+        /*
+        let blurEffect = UIBlurEffect(style: .light)
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        blurView.translatesAutoresizingMaskIntoConstraints = false
+        view.insertSubview(blurView, at: 0)
+ */
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
@@ -22,6 +31,8 @@ class PublishViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     
     /*

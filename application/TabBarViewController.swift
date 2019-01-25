@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class TabBarViewController: UITabBarController {
     
@@ -24,7 +25,8 @@ class TabBarViewController: UITabBarController {
     var NavVCArr:[NSObject] = [NSObject]()
     */
     var nav:UINavigationController = UINavigationController()
-    
+    var publishview = UIView()
+    var ispublishview = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,12 +48,15 @@ class TabBarViewController: UITabBarController {
         MainNav.tabBarItem.selectedImage = UIImage(named:"Home_1")
 
         //!!!!
+        /*
         let  PublishVC  = PublishViewController()
         PublishVC.title = " "
         let PublishNav = UINavigationController(rootViewController:PublishVC)
         PublishNav.tabBarItem.title = " "
         PublishNav.tabBarItem.image = UIImage(named:"Publish")
-        PublishNav.tabBarItem.selectedImage = UIImage(named:"Publish")
+        //PublishNav.tabBarItem.selectedImage = UIImage(named:"Publish")
+        */
+        
         
         let  MyVC  = MyViewController()
         MyVC.title = "我的"
@@ -61,49 +66,62 @@ class TabBarViewController: UITabBarController {
         MyNav.tabBarItem.selectedImage = UIImage(named:"My_1")
         
         // 添加工具栏
-        items = [MainNav,PublishNav,MyNav]
+        //items = [MainNav,PublishNav,MyNav]
+        items = [MainNav,MyNav]
         self.viewControllers = items as? [UIViewController]
         self.tabBar.tintColor = UIColor(red: 184.0 / 255.0, green: 206.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
         self.tabBar.backgroundColor = UIColor.white
         self.tabBar.isTranslucent = false //解决了从二级页面返回后tabbar的偏移问题!
         
-        /**
-         for循环控制器数组 写法
-         
-         for  M in 0 ..< VCArr.count {
-         nav = UINavigationController(rootViewController:(VCArr[M] as AnyObject as! UIViewController))
-         
-         nav.tabBarItem.title = NameArr[M]
-         nav.tabBarItem.image = UIImage(named:PicArr[M])
-         nav.tabBarItem.selectedImage = UIImage(named:PicSelectArr[M])
-         VCArr[M].title = NameArr[M]
-         NavVCArr.append(nav)
-         }
-         // 添加工具栏
-         // items = [MainNav,ClassNav,CartNav,MyNav]
-         self.viewControllers = NavVCArr as? [UIViewController]
-         for  i in 0 ..< NavVCArr.count {
-         /*
-         (items[i] as AnyObject) 相当于 self.navigationController?
-         **/
-         //设置导航栏的背景图片 （优先级高）
-         (NavVCArr[i] as AnyObject).navigationBar.setBackgroundImage(UIImage(named:"NavigationBar"), for:.default)
-         //设置导航栏的背景颜色 （优先级低）
-         (NavVCArr[i] as AnyObject).navigationBar.barTintColor = UIColor.orange
-         //设置导航栏的字体颜色
-         (NavVCArr[i] as AnyObject).navigationBar.titleTextAttributes =
-         [NSForegroundColorAttributeName: UIColor.red]
-         
-         }
-         */
+        
 //        UITabBarItem.appearance().setTitleTextAttributes(NSDictionary(object:UIColor.white, forKey:NSForegroundColorAttributeName as NSCopying) as? [String : AnyObject], for:UIControlState.normal);
 //        UITabBarItem.appearance().setTitleTextAttributes(NSDictionary(object:UIColor.red, forKey:NSForegroundColorAttributeName as NSCopying) as? [String : AnyObject], for:UIControlState.selected);
-        
-
-        
-        
+       
         
     }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let PublishButton = UIButton()
+        PublishButton.setImage(UIImage(named:"Publish"), for: .normal)
+        //PublishButton.frame = CGSize()
+        PublishButton.center.x = self.tabBar.center.x;
+        //PublishButton.center.y = self.tabBar.bounds.size.height * 0.5  ;
+        PublishButton.center.y = 500
+        self.view.addSubview(PublishButton)
+        PublishButton.snp.makeConstraints { (make) in
+            // 距离父视图顶部
+            make.top.equalTo(UIScreen.main.bounds.size.height - self.tabBar.bounds.size.height-26)
+            // 设置视图大小
+            make.size.equalTo(CGSize(width: 80, height: 80))
+            // x轴方向上居中
+            make.centerX.equalToSuperview()
+            
+        }
+        PublishButton.addTarget(self, action: #selector(PublishAction), for: .touchUpInside)
+        PublishButton.addTarget(self, action: #selector(PublishDisappear), for: .touchUpOutside)
+        
+    }
+    
+    @objc func PublishAction(){
+        
+        //publishview = PublishView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        publishview = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
+        publishview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        publishview.alpha = 0.5
+        self.view.addSubview(publishview)
+        ispublishview = true
+    }
+    
+    @objc func PublishDisappear(){
+        if(ispublishview){
+            ispublishview = false
+            publishview.removeFromSuperview()
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         
         super.didReceiveMemoryWarning()

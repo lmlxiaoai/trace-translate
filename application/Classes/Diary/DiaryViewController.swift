@@ -32,6 +32,7 @@ class DiaryViewController: BaseViewController {
         if (self.segement.selectedSegmentIndex == 0){
             //self.view.removeFromSuperview()
             self.scrollview.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+            
         }
         else{
             self.scrollview.setContentOffset(CGPoint(x: UIScreen.main.bounds.width, y: 0), animated: true)
