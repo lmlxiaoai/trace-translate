@@ -27,7 +27,6 @@ class HomeViewController: UIViewController {
         let MapSearchBar = UISearchBar.init(frame: CGRect(x: 0, y: 20, width: 300, height: 26))
         MapSearchBar.placeholder = "搜索"
         MapSearchBar.barTintColor = UIColor.gray
-        //MapSearchBar.backgroundColor = UIColor.gray
         let rightNavBarButton = UIBarButtonItem(customView:MapSearchBar)
         self.navigationItem.rightBarButtonItem = rightNavBarButton
         
@@ -126,13 +125,13 @@ class HomeViewController: UIViewController {
         self.hidesBottomBarWhenPushed = false
     }
     @objc func SightButtonAction(){
-        self.hidesBottomBarWhenPushed = true
+        //self.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(SightViewController(), animated: true)
         self.hidesBottomBarWhenPushed = false
     }
     @objc func DiaryButtonAction(){
-        self.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(DiaryViewController(), animated: true)
+        //self.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(DiaryDetailViewController(), animated: true)
         self.hidesBottomBarWhenPushed = false
     }
     

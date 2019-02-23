@@ -10,9 +10,15 @@ import UIKit
 
 class WordViewController: BaseViewController {
     
+    var wordview = WordView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "翻译"
         
+        //wordview = WordView(frame: UIScreen.main.bounds)
+        wordview = WordView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        self.view.addSubview(wordview)
         // Do any additional setup after loading the view.
     }
     

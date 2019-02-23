@@ -15,6 +15,7 @@ class TabBarViewController: UITabBarController {
     
     var _backView:UIView? = nil
     var items:NSArray = []
+    
     /*
     let NameArr = ["首页","我的"]
     let PicArr = ["main","grid","cart","me"]
@@ -32,6 +33,18 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         self.CreatTabBar()
+        
+        let singTap = UITapGestureRecognizer(target: self, action:#selector(handleSingleTapGesture))
+        
+        publishview.isUserInteractionEnabled = true
+        //let publishbutton = PublishButtonView()
+        //publishview.addSubview(publishbutton)
+        //singTap.numberOfTapsRequired = 1
+        publishview.addGestureRecognizer(singTap)
+        publishview = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
+        publishview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        publishview.alpha = 0.5
+        
     }
     
     //创建tabBar
@@ -55,7 +68,7 @@ class TabBarViewController: UITabBarController {
         PublishNav.tabBarItem.title = " "
         PublishNav.tabBarItem.image = UIImage(named:"Publish")
         //PublishNav.tabBarItem.selectedImage = UIImage(named:"Publish")
-        */
+ */
         
         
         let  MyVC  = MyViewController()
@@ -73,6 +86,29 @@ class TabBarViewController: UITabBarController {
         self.tabBar.backgroundColor = UIColor.white
         self.tabBar.isTranslucent = false //解决了从二级页面返回后tabbar的偏移问题!
         
+        let PublishButton = UIButton()
+        PublishButton.setImage(UIImage(named:"Publish"), for: .normal)
+        PublishButton.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
+        //PublishButton.sizeToFit()
+        PublishButton.center.x = self.tabBar.center.x;
+        PublishButton.center.y = self.tabBar.bounds.size.height * 0.5 - 10  ;
+        //PublishButton.center.y = 0
+        //self.view.addSubview(PublishButton)
+        self.tabBar.addSubview(PublishButton)
+ 
+        /*
+        PublishButton.snp.makeConstraints { (make) in
+            // 距离父视图顶部
+            make.top.equalTo(UIScreen.main.bounds.size.height - self.tabBar.bounds.size.height-26)
+            // 设置视图大小
+            make.size.equalTo(CGSize(width: 80, height: 80))
+            // x轴方向上居中
+            //make.centerX.equalToSuperview()
+            
+        }
+ */
+        PublishButton.addTarget(self, action: #selector(PublishAction), for: .touchUpInside)
+       // PublishButton.addTarget(self, action: #selector(PublishDisappear), for: .touchUpOutside)
         
 //        UITabBarItem.appearance().setTitleTextAttributes(NSDictionary(object:UIColor.white, forKey:NSForegroundColorAttributeName as NSCopying) as? [String : AnyObject], for:UIControlState.normal);
 //        UITabBarItem.appearance().setTitleTextAttributes(NSDictionary(object:UIColor.red, forKey:NSForegroundColorAttributeName as NSCopying) as? [String : AnyObject], for:UIControlState.selected);
@@ -80,7 +116,7 @@ class TabBarViewController: UITabBarController {
         
     }
     
-    
+    /*
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -90,7 +126,8 @@ class TabBarViewController: UITabBarController {
         PublishButton.center.x = self.tabBar.center.x;
         //PublishButton.center.y = self.tabBar.bounds.size.height * 0.5  ;
         PublishButton.center.y = 500
-        self.view.addSubview(PublishButton)
+        //self.view.addSubview(PublishButton)
+        self.tabBar.addSubview(PublishButton)
         PublishButton.snp.makeConstraints { (make) in
             // 距离父视图顶部
             make.top.equalTo(UIScreen.main.bounds.size.height - self.tabBar.bounds.size.height-26)
@@ -104,24 +141,41 @@ class TabBarViewController: UITabBarController {
         PublishButton.addTarget(self, action: #selector(PublishDisappear), for: .touchUpOutside)
         
     }
-    
+    */
     @objc func PublishAction(){
         
+        
+        
         //publishview = PublishView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-        publishview = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
-        publishview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        publishview.alpha = 0.5
+        
         self.view.addSubview(publishview)
+        print("a")
+       
+        //publishview.becomeFirstResponder()
+        /*
+        let view0 = PublishButtonView()
+        view0.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        self.view.addSubview(view0)
+ */
+       
         ispublishview = true
     }
-    
+    /*
     @objc func PublishDisappear(){
         if(ispublishview){
             ispublishview = false
-            publishview.removeFromSuperview()
+            //publishview.removeFromSuperview()
+            
         }
     }
+    */
     
+    @objc func handleSingleTapGesture() {
+        
+        print("ss")
+        //publishview.removeFromSuperview() // 点击移除半透明的View
+        
+    }
     override func didReceiveMemoryWarning() {
         
         super.didReceiveMemoryWarning()

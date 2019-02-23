@@ -36,9 +36,8 @@ class PublishVoiceView: UIView {
         //VoiceResult.borderStyle = UITextBorderStyleRoundedRect
         //VoiceResult.layer.borderColor =
         VoiceResult.layer.shadowColor = UIColor.lightGray.cgColor
-        VoiceResult.layer.shadowRadius = 20
-        VoiceResult.layer.shadowOpacity = 0.8
-        VoiceResult.layer.borderWidth = 1.0
+        VoiceResult.layer.shadowRadius = 5
+        VoiceResult.layer.shadowOpacity = 0.2
         self.addSubview(VoiceResult)
         VoiceResult.snp.makeConstraints { (make) in
             make.top.equalTo(10)

@@ -20,7 +20,7 @@ class DiaryScrollView : UIScrollView , UIScrollViewDelegate{
         self.backgroundColor = UIColor.white
         self.addSubview(diaryviewcontroller1.view)
         self.addSubview(diaryviewcontroller2.view)
-        self.contentSize = CGSize(width: UIScreen.main.bounds.size.width*2, height: UIScreen.main.bounds.size.height*2)
+        self.contentSize = CGSize(width: UIScreen.main.bounds.size.width*2, height: UIScreen.main.bounds.size.height)
         
         //self.alwaysBounceVertical = true
         self.isPagingEnabled = true //每次翻动一页

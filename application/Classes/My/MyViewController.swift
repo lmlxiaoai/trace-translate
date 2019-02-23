@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class MyViewController: BaseViewController, UIScrollViewDelegate {
+class MyViewController0: BaseViewController, UIScrollViewDelegate {
 
     let Scrollview = UIScrollView()
     var scroll:UIScrollView!
@@ -25,7 +25,7 @@ class MyViewController: BaseViewController, UIScrollViewDelegate {
  */
         username = "初学者"
         
-        //导航栏 还没有设置透明
+        //导航栏
         self.navigationController?.navigationBar.tintColor = UIColor.purple
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

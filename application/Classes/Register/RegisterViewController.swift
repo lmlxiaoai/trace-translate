@@ -9,30 +9,41 @@ import UIKit
 import Foundation
 
 
-class RegisterViewController: UIViewController, UITextFieldDelegate {
+class RegisterViewController: BaseViewController, UITextFieldDelegate {
+    
+    var registerview = RegisterView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.lightGray
         self.title = " "
-        
-        let Username = UITextField.init(frame: CGRect(x: 30, y: 145, width: 300, height: 30))
-        self.view.addSubview(Username)
-        Username.delegate = self
-        Username.becomeFirstResponder()
-        Username.borderStyle = UITextField.BorderStyle.roundedRect
-        Username.placeholder = "输入用户名"
- 
-        
-        let Password = UITextField.init(frame: CGRect(x: 30, y: 245, width: 300, height: 30))
-        self.view.addSubview(Password)
-        Password.delegate = self
-        Password.borderStyle = UITextField.BorderStyle.roundedRect
-        Password.placeholder = "输入密码"
-        
+       
+        registerview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        self.view.addSubview(registerview)
+       
+        registerview.Username.delegate = self
+        registerview.Username.becomeFirstResponder()
+        registerview.Username.borderStyle = UITextField.BorderStyle.none
+      
+        registerview.Password.delegate = self
+        registerview.Password.borderStyle = UITextField.BorderStyle.none
+
+        registerview.RegisterButton.addTarget(self, action: #selector(RegisterAction), for: .touchUpInside)
+        registerview.LoginChoiceButton.addTarget(self, action: #selector(Change), for: .touchUpInside)
         
         // Do any additional setup after loading the view.
     }
+    @objc func Change(){
+        
+        self.navigationController?.pushViewController(LoginViewController(), animated: false)
+    }
+    @objc func RegisterAction(){
+        
+        let Client = Register(name: registerview.Username.text!, password: registerview.Password.text!)
+        print(Client.name0)
+        Client.GET1()
+        
+    }
+    
     // 输入框结束编辑状态
     func textFieldDidEndEditing(_ textField: UITextField) {
         //print("我已经结束编辑状态...")

@@ -20,6 +20,16 @@ class DiaryViewController: BaseViewController {
         scrollview.frame = self.view.bounds
         self.segement.addTarget(self, action: #selector(segmentValueChange), for: UIControl.Event.valueChanged)
         self.view.addSubview(scrollview)
+        
+        segement.selectedSegmentIndex = 0
+        
+        let pageWidth = UIScreen.main.bounds.width
+        if(scrollview.contentOffset.x/pageWidth == 0){
+            segement.selectedSegmentIndex = 0
+        }
+        else{
+            segement.selectedSegmentIndex = 1
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -32,7 +42,6 @@ class DiaryViewController: BaseViewController {
         if (self.segement.selectedSegmentIndex == 0){
             //self.view.removeFromSuperview()
             self.scrollview.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
-            
         }
         else{
             self.scrollview.setContentOffset(CGPoint(x: UIScreen.main.bounds.width, y: 0), animated: true)

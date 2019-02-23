@@ -44,6 +44,25 @@
 		2673852621F3140D00CCBC59 /* MyFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852521F3140D00CCBC59 /* MyFriendViewController.swift */; };
 		2673852921F3170C00CCBC59 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852821F3170C00CCBC59 /* RegisterViewController.swift */; };
 		2673852B21F3528500CCBC59 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673852A21F3528500CCBC59 /* MyView.swift */; };
+		26861A4F221AA95D004FB677 /* md5String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A4E221AA95D004FB677 /* md5String.swift */; };
+		26861A55221AE81A004FB677 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A54221AE81A004FB677 /* LoginViewController.swift */; };
+		26861A57221AE82E004FB677 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A56221AE82E004FB677 /* LoginView.swift */; };
+		26861A59221AF87E004FB677 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A58221AF87E004FB677 /* DiaryTableViewCell.swift */; };
+		26861A5B221C3E1F004FB677 /* MyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A5A221C3E1F004FB677 /* MyViewController2.swift */; };
+		26861A5D221C4232004FB677 /* MyLifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A5C221C4232004FB677 /* MyLifeTableViewCell.swift */; };
+		26861A9A221FED06004FB677 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A99221FED06004FB677 /* ViewController0.swift */; };
+		26861A9C221FED83004FB677 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A9B221FED83004FB677 /* UnitView.swift */; };
+		26861A9E221FEDB8004FB677 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A9D221FEDB8004FB677 /* BaseView.swift */; };
+		26861AA0221FEE61004FB677 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A9F221FEE61004FB677 /* Double+extension.swift */; };
+		26861AA222200312004FB677 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861AA122200312004FB677 /* DiaryDetailViewController.swift */; };
+		26975C2D21FC969200B3175B /* SightTableVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C2C21FC969200B3175B /* SightTableVIewCell.swift */; };
+		26975C2F21FDC0E700B3175B /* SightViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C2E21FDC0E700B3175B /* SightViewController2.swift */; };
+		26975C3121FDD50A00B3175B /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C3021FDD50A00B3175B /* CityView.swift */; };
+		26975C332200341200B3175B /* MyTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C322200341200B3175B /* MyTravelView.swift */; };
+		26975C37220580B700B3175B /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C36220580B700B3175B /* WordView.swift */; };
+		26C1B300222154AD00EE805B /* DiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1B2FF222154AD00EE805B /* DiaryDetailView.swift */; };
+		26C570BC2219817B00DBA3C4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C570BB2219817B00DBA3C4 /* RegisterView.swift */; };
+		26C570BE2219A78A00DBA3C4 /* Register1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C570BD2219A78A00DBA3C4 /* Register1.swift */; };
 		9D2B349B35118D062D09520C /* Pods_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE12A9ECED8145CAC308948 /* Pods_application.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +128,26 @@
 		2673852521F3140D00CCBC59 /* MyFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendViewController.swift; sourceTree = "<group>"; };
 		2673852821F3170C00CCBC59 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2673852A21F3528500CCBC59 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		26861A4E221AA95D004FB677 /* md5String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = md5String.swift; sourceTree = "<group>"; };
+		26861A52221AACA6004FB677 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		26861A54221AE81A004FB677 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		26861A56221AE82E004FB677 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		26861A58221AF87E004FB677 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		26861A5A221C3E1F004FB677 /* MyViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController2.swift; sourceTree = "<group>"; };
+		26861A5C221C4232004FB677 /* MyLifeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLifeTableViewCell.swift; sourceTree = "<group>"; };
+		26861A99221FED06004FB677 /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		26861A9B221FED83004FB677 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		26861A9D221FEDB8004FB677 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		26861A9F221FEE61004FB677 /* Double+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		26861AA122200312004FB677 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		26975C2C21FC969200B3175B /* SightTableVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightTableVIewCell.swift; sourceTree = "<group>"; };
+		26975C2E21FDC0E700B3175B /* SightViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightViewController2.swift; sourceTree = "<group>"; };
+		26975C3021FDD50A00B3175B /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		26975C322200341200B3175B /* MyTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTravelView.swift; sourceTree = "<group>"; };
+		26975C36220580B700B3175B /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		26C1B2FF222154AD00EE805B /* DiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailView.swift; sourceTree = "<group>"; };
+		26C570BB2219817B00DBA3C4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		26C570BD2219A78A00DBA3C4 /* Register1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1.swift; sourceTree = "<group>"; };
 		35C5B6BC0E6954322C707BF5 /* Pods-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-application/Pods-application.debug.xcconfig"; sourceTree = "<group>"; };
 		8AE12A9ECED8145CAC308948 /* Pods_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +203,7 @@
 		26065D5821F1D08500CAEBBB /* application */ = {
 			isa = PBXGroup;
 			children = (
+				26861A52221AACA6004FB677 /* bridge.h */,
 				267384F221F1D5CD00CCBC59 /* New Group1 */,
 				267384F121F1D5C600CCBC59 /* Classes */,
 				26065D5921F1D08500CAEBBB /* AppDelegate.swift */,
@@ -198,9 +238,10 @@
 			isa = PBXGroup;
 			children = (
 				2673850721F1D88600CCBC59 /* TabBarViewController.swift */,
+				2673851721F2318700CCBC59 /* Search */,
+				26861A53221AE7FA004FB677 /* Login */,
 				2673852721F3169500CCBC59 /* Register */,
 				2673851C21F3021F00CCBC59 /* Setting */,
-				2673851721F2318700CCBC59 /* Search */,
 				2673851421F2160D00CCBC59 /* Message */,
 				2673851121F2056F00CCBC59 /* Sight */,
 				2673851021F204B100CCBC59 /* Map */,
@@ -220,6 +261,7 @@
 				2673850121F1D85600CCBC59 /* UIKit+Extension.swift */,
 				267384FF21F1D85000CCBC59 /* skin.swift */,
 				267384FD21F1D84600CCBC59 /* BaseViewController.swift */,
+				26861A9F221FEE61004FB677 /* Double+extension.swift */,
 			);
 			path = "New Group1";
 			sourceTree = "<group>";
@@ -247,12 +289,15 @@
 		267384F521F1D5D800CCBC59 /* My */ = {
 			isa = PBXGroup;
 			children = (
+				26861A5E221C434E004FB677 /* New Group */,
 				2673852A21F3528500CCBC59 /* MyView.swift */,
 				2673850321F1D86100CCBC59 /* MyViewController.swift */,
-				2673851F21F313BD00CCBC59 /* MyIconViewController.swift */,
-				2673852121F313D500CCBC59 /* MyLikeVIewController.swift */,
-				2673852321F313F800CCBC59 /* MyStorageViewController.swift */,
-				2673852521F3140D00CCBC59 /* MyFriendViewController.swift */,
+				26975C322200341200B3175B /* MyTravelView.swift */,
+				26861A5A221C3E1F004FB677 /* MyViewController2.swift */,
+				26861A5C221C4232004FB677 /* MyLifeTableViewCell.swift */,
+				26861A99221FED06004FB677 /* ViewController0.swift */,
+				26861A9B221FED83004FB677 /* UnitView.swift */,
+				26861A9D221FEDB8004FB677 /* BaseView.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -269,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				2673850921F1D8B600CCBC59 /* WordViewController.swift */,
+				26975C36220580B700B3175B /* WordView.swift */,
 			);
 			path = Word;
 			sourceTree = "<group>";
@@ -281,6 +327,9 @@
 				265D522421F5A08D001730D1 /* DiarySegement.swift */,
 				2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */,
 				2668A3D721F5AE69003C7E75 /* DiaryVieeController2.swift */,
+				26861A58221AF87E004FB677 /* DiaryTableViewCell.swift */,
+				26861AA122200312004FB677 /* DiaryDetailViewController.swift */,
+				26C1B2FF222154AD00EE805B /* DiaryDetailView.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -297,6 +346,9 @@
 			isa = PBXGroup;
 			children = (
 				2673851221F2058900CCBC59 /* SightViewController.swift */,
+				26975C2C21FC969200B3175B /* SightTableVIewCell.swift */,
+				26975C2E21FDC0E700B3175B /* SightViewController2.swift */,
+				26975C3021FDD50A00B3175B /* CityView.swift */,
 			);
 			path = Sight;
 			sourceTree = "<group>";
@@ -330,8 +382,31 @@
 			isa = PBXGroup;
 			children = (
 				2673852821F3170C00CCBC59 /* RegisterViewController.swift */,
+				26C570BB2219817B00DBA3C4 /* RegisterView.swift */,
+				26C570BD2219A78A00DBA3C4 /* Register1.swift */,
+				26861A4E221AA95D004FB677 /* md5String.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		26861A53221AE7FA004FB677 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				26861A54221AE81A004FB677 /* LoginViewController.swift */,
+				26861A56221AE82E004FB677 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		26861A5E221C434E004FB677 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2673852521F3140D00CCBC59 /* MyFriendViewController.swift */,
+				2673852321F313F800CCBC59 /* MyStorageViewController.swift */,
+				2673852121F313D500CCBC59 /* MyLikeVIewController.swift */,
+				2673851F21F313BD00CCBC59 /* MyIconViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		293F110A74B14D46B406897E /* Pods */ = {
@@ -363,6 +438,7 @@
 				26065D5321F1D08500CAEBBB /* Frameworks */,
 				26065D5421F1D08500CAEBBB /* Resources */,
 				B9F0C0144CF9F306378743CB /* [CP] Embed Pods Frameworks */,
+				F868B0224C5B88830C07E9C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -511,17 +587,51 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F868B0224C5B88830C07E9C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-resources.sh",
+				"${PODS_ROOT}/NIMSDK/NIM_iOS_SDK_v4.3.0/NIMAVChat/Resources/NMCVideoFilter.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NMCVideoFilter.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -531,38 +641,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26861A55221AE81A004FB677 /* LoginViewController.swift in Sources */,
 				2673852B21F3528500CCBC59 /* MyView.swift in Sources */,
 				2668A3D821F5AE69003C7E75 /* DiaryVieeController2.swift in Sources */,
 				2622CCD121F375AC00BA71A6 /* PublishVoiceViewController.swift in Sources */,
+				26975C2F21FDC0E700B3175B /* SightViewController2.swift in Sources */,
 				2673852621F3140D00CCBC59 /* MyFriendViewController.swift in Sources */,
 				267384FC21F1D83B00CCBC59 /* PublishViewController.swift in Sources */,
+				26861AA222200312004FB677 /* DiaryDetailViewController.swift in Sources */,
 				2673852021F313BD00CCBC59 /* MyIconViewController.swift in Sources */,
+				26861A57221AE82E004FB677 /* LoginView.swift in Sources */,
+				26861A4F221AA95D004FB677 /* md5String.swift in Sources */,
 				265D522321F5A009001730D1 /* DiaryScrollVIew.swift in Sources */,
 				26065D5C21F1D08500CAEBBB /* ViewController.swift in Sources */,
 				2673852421F313F800CCBC59 /* MyStorageViewController.swift in Sources */,
 				267384FA21F1D83100CCBC59 /* ViewController2.swift in Sources */,
+				26861A5B221C3E1F004FB677 /* MyViewController2.swift in Sources */,
+				26861A9E221FEDB8004FB677 /* BaseView.swift in Sources */,
+				26861A9A221FED06004FB677 /* ViewController0.swift in Sources */,
 				2673850F21F2040000CCBC59 /* DiaryViewController.swift in Sources */,
+				26975C2D21FC969200B3175B /* SightTableVIewCell.swift in Sources */,
 				2673851621F2162600CCBC59 /* MessageViewController.swift in Sources */,
 				2673851E21F3023200CCBC59 /* SettingViewController.swift in Sources */,
+				26C570BC2219817B00DBA3C4 /* RegisterView.swift in Sources */,
 				2673852221F313D500CCBC59 /* MyLikeVIewController.swift in Sources */,
 				26065D5A21F1D08500CAEBBB /* AppDelegate.swift in Sources */,
 				2673850A21F1D8B600CCBC59 /* WordViewController.swift in Sources */,
 				2673850C21F1D8C500CCBC59 /* CameraViewController.swift in Sources */,
+				26C1B300222154AD00EE805B /* DiaryDetailView.swift in Sources */,
 				265D522521F5A08D001730D1 /* DiarySegement.swift in Sources */,
 				2673850421F1D86100CCBC59 /* MyViewController.swift in Sources */,
 				2673852921F3170C00CCBC59 /* RegisterViewController.swift in Sources */,
+				26C570BE2219A78A00DBA3C4 /* Register1.swift in Sources */,
+				26861A5D221C4232004FB677 /* MyLifeTableViewCell.swift in Sources */,
+				26861A59221AF87E004FB677 /* DiaryTableViewCell.swift in Sources */,
 				2673851321F2058A00CCBC59 /* SightViewController.swift in Sources */,
 				2673851921F2324900CCBC59 /* SearchViewController.swift in Sources */,
+				26975C332200341200B3175B /* MyTravelView.swift in Sources */,
+				26975C37220580B700B3175B /* WordView.swift in Sources */,
 				267384F821F1D82000CCBC59 /* HomeViewController.swift in Sources */,
 				267384FE21F1D84600CCBC59 /* BaseViewController.swift in Sources */,
+				26975C3121FDD50A00B3175B /* CityView.swift in Sources */,
 				2673850221F1D85700CCBC59 /* UIKit+Extension.swift in Sources */,
 				2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */,
 				2622CCD521F4742C00BA71A6 /* PublishVioceVIewController2.swift in Sources */,
 				2673850821F1D88700CCBC59 /* TabBarViewController.swift in Sources */,
+				26861A9C221FED83004FB677 /* UnitView.swift in Sources */,
 				2673851B21F2326E00CCBC59 /* SearchBar.swift in Sources */,
 				2673850021F1D85000CCBC59 /* skin.swift in Sources */,
 				2668A3DA21F61ACA003C7E75 /* PublishView.swift in Sources */,
 				2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */,
+				26861AA0221FEE61004FB677 /* Double+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,6 +876,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.application;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/lmlxiaoai/Documents/application/application/bridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -766,6 +896,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.application;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/lmlxiaoai/Documents/application/application/bridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

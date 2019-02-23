@@ -1,16 +1,31 @@
 PODS:
+  - Alamofire (4.5.1)
+  - NIMSDK (4.3.0)
+  - RongCloudIM/IMKit (2.8.20):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.20)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - NIMSDK
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - RongCloudIM/IMLib (~> 2.8.3)
   - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - NIMSDK
+    - RongCloudIM
     - SnapKit
 
 SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  NIMSDK: 4c7d69e30a1d7a45df07af3d28b87810510f6987
+  RongCloudIM: fbb835e78844cb11f3f279467dea0fc962905002
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 64cbaf71a4de5be1aad16e6154a5d4d5b817c1fe
+PODFILE CHECKSUM: 482c1442c119d585fc7eaccb1bb524ed3564f8bf
 
 COCOAPODS: 1.5.3

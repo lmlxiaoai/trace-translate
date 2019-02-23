@@ -11,17 +11,23 @@ import UIKit
 
 class PublishViewController: UIViewController {
     
+    let PublishPicButton = UIButton()
+    let PublishVoiButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .clear
-        /*
-        let blurEffect = UIBlurEffect(style: .light)
-        let blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.translatesAutoresizingMaskIntoConstraints = false
-        view.insertSubview(blurView, at: 0)
- */
+        self.view.backgroundColor = UIColor.white
+        self.view.alpha = 0.5
+        PublishPicButton.frame = CGRect(x: 200, y: 0, width: 80, height: 80)
+        PublishPicButton.backgroundColor = UIColor(red: 184.0 / 255.0, green: 206.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
+        PublishPicButton.setImage(UIImage(named:"sight"), for: .normal)
+        self.view.addSubview(PublishPicButton)
         
+        
+        PublishVoiButton.frame = CGRect(x: 100, y: 100, width: 80, height: 80)
+        PublishVoiButton.backgroundColor = UIColor(red: 184.0 / 255.0, green: 206.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
+        PublishPicButton.setImage(UIImage(named:"sight"), for: .normal)
+        self.view.addSubview(PublishVoiButton)
         
         
         // Do any additional setup after loading the view.
@@ -46,3 +52,4 @@ class PublishViewController: UIViewController {
      */
     
 }
+
