@@ -17,6 +17,8 @@
 		2622CCD121F375AC00BA71A6 /* PublishVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */; };
 		2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */; };
 		2622CCD521F4742C00BA71A6 /* PublishVioceVIewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */; };
+		26303191222BB9A300117BE6 /* SightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26303190222BB9A300117BE6 /* SightDetailView.swift */; };
+		26451E1E22292F630077FDB1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26451E1D22292F630077FDB1 /* Login.swift */; };
 		265D522321F5A009001730D1 /* DiaryScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D522221F5A009001730D1 /* DiaryScrollVIew.swift */; };
 		265D522521F5A08D001730D1 /* DiarySegement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D522421F5A08D001730D1 /* DiarySegement.swift */; };
 		2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */; };
@@ -55,12 +57,17 @@
 		26861A9E221FEDB8004FB677 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A9D221FEDB8004FB677 /* BaseView.swift */; };
 		26861AA0221FEE61004FB677 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861A9F221FEE61004FB677 /* Double+extension.swift */; };
 		26861AA222200312004FB677 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26861AA122200312004FB677 /* DiaryDetailViewController.swift */; };
+		2695ED8C222E2842008AB12C /* KiImageClipperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695ED8B222E2842008AB12C /* KiImageClipperViewController.swift */; };
+		2695ED8E222E2A76008AB12C /* KiClipperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695ED8D222E2A76008AB12C /* KiClipperView.swift */; };
+		2695ED90222E2AB9008AB12C /* KiClipperHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695ED8F222E2AB9008AB12C /* KiClipperHelper.swift */; };
+		2695ED92222E2AF4008AB12C /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695ED91222E2AF4008AB12C /* testViewController.swift */; };
 		26975C2D21FC969200B3175B /* SightTableVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C2C21FC969200B3175B /* SightTableVIewCell.swift */; };
-		26975C2F21FDC0E700B3175B /* SightViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C2E21FDC0E700B3175B /* SightViewController2.swift */; };
+		26975C2F21FDC0E700B3175B /* SightDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C2E21FDC0E700B3175B /* SightDetailViewController.swift */; };
 		26975C3121FDD50A00B3175B /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C3021FDD50A00B3175B /* CityView.swift */; };
 		26975C332200341200B3175B /* MyTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C322200341200B3175B /* MyTravelView.swift */; };
 		26975C37220580B700B3175B /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26975C36220580B700B3175B /* WordView.swift */; };
 		26C1B300222154AD00EE805B /* DiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1B2FF222154AD00EE805B /* DiaryDetailView.swift */; };
+		26C1B3022224134F00EE805B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1B3012224134F00EE805B /* CameraView.swift */; };
 		26C570BC2219817B00DBA3C4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C570BB2219817B00DBA3C4 /* RegisterView.swift */; };
 		26C570BE2219A78A00DBA3C4 /* Register1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C570BD2219A78A00DBA3C4 /* Register1.swift */; };
 		9D2B349B35118D062D09520C /* Pods_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE12A9ECED8145CAC308948 /* Pods_application.framework */; };
@@ -101,6 +108,8 @@
 		2622CCD021F375AC00BA71A6 /* PublishVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVoiceViewController.swift; sourceTree = "<group>"; };
 		2622CCD221F376F800BA71A6 /* PublishVoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVoiceView.swift; sourceTree = "<group>"; };
 		2622CCD421F4742B00BA71A6 /* PublishVioceVIewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishVioceVIewController2.swift; sourceTree = "<group>"; };
+		26303190222BB9A300117BE6 /* SightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightDetailView.swift; sourceTree = "<group>"; };
+		26451E1D22292F630077FDB1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		265D522221F5A009001730D1 /* DiaryScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryScrollVIew.swift; sourceTree = "<group>"; };
 		265D522421F5A08D001730D1 /* DiarySegement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySegement.swift; sourceTree = "<group>"; };
 		2668A3D521F5AE5A003C7E75 /* DiaryViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController1.swift; sourceTree = "<group>"; };
@@ -140,12 +149,17 @@
 		26861A9D221FEDB8004FB677 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		26861A9F221FEE61004FB677 /* Double+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
 		26861AA122200312004FB677 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		2695ED8B222E2842008AB12C /* KiImageClipperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiImageClipperViewController.swift; sourceTree = "<group>"; };
+		2695ED8D222E2A76008AB12C /* KiClipperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiClipperView.swift; sourceTree = "<group>"; };
+		2695ED8F222E2AB9008AB12C /* KiClipperHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiClipperHelper.swift; sourceTree = "<group>"; };
+		2695ED91222E2AF4008AB12C /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		26975C2C21FC969200B3175B /* SightTableVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightTableVIewCell.swift; sourceTree = "<group>"; };
-		26975C2E21FDC0E700B3175B /* SightViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightViewController2.swift; sourceTree = "<group>"; };
+		26975C2E21FDC0E700B3175B /* SightDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightDetailViewController.swift; sourceTree = "<group>"; };
 		26975C3021FDD50A00B3175B /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		26975C322200341200B3175B /* MyTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTravelView.swift; sourceTree = "<group>"; };
 		26975C36220580B700B3175B /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		26C1B2FF222154AD00EE805B /* DiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailView.swift; sourceTree = "<group>"; };
+		26C1B3012224134F00EE805B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		26C570BB2219817B00DBA3C4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		26C570BD2219A78A00DBA3C4 /* Register1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1.swift; sourceTree = "<group>"; };
 		35C5B6BC0E6954322C707BF5 /* Pods-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-application/Pods-application.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +217,7 @@
 		26065D5821F1D08500CAEBBB /* application */ = {
 			isa = PBXGroup;
 			children = (
+				2695ED8A222E27FB008AB12C /* New Group */,
 				26861A52221AACA6004FB677 /* bridge.h */,
 				267384F221F1D5CD00CCBC59 /* New Group1 */,
 				267384F121F1D5C600CCBC59 /* Classes */,
@@ -306,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				2673850B21F1D8C400CCBC59 /* CameraViewController.swift */,
+				26C1B3012224134F00EE805B /* CameraView.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -347,8 +363,9 @@
 			children = (
 				2673851221F2058900CCBC59 /* SightViewController.swift */,
 				26975C2C21FC969200B3175B /* SightTableVIewCell.swift */,
-				26975C2E21FDC0E700B3175B /* SightViewController2.swift */,
+				26975C2E21FDC0E700B3175B /* SightDetailViewController.swift */,
 				26975C3021FDD50A00B3175B /* CityView.swift */,
+				26303190222BB9A300117BE6 /* SightDetailView.swift */,
 			);
 			path = Sight;
 			sourceTree = "<group>";
@@ -394,6 +411,7 @@
 			children = (
 				26861A54221AE81A004FB677 /* LoginViewController.swift */,
 				26861A56221AE82E004FB677 /* LoginView.swift */,
+				26451E1D22292F630077FDB1 /* Login.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -405,6 +423,17 @@
 				2673852321F313F800CCBC59 /* MyStorageViewController.swift */,
 				2673852121F313D500CCBC59 /* MyLikeVIewController.swift */,
 				2673851F21F313BD00CCBC59 /* MyIconViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2695ED8A222E27FB008AB12C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2695ED8B222E2842008AB12C /* KiImageClipperViewController.swift */,
+				2695ED8D222E2A76008AB12C /* KiClipperView.swift */,
+				2695ED8F222E2AB9008AB12C /* KiClipperHelper.swift */,
+				2695ED91222E2AF4008AB12C /* testViewController.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -589,6 +618,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -596,6 +626,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -645,7 +676,7 @@
 				2673852B21F3528500CCBC59 /* MyView.swift in Sources */,
 				2668A3D821F5AE69003C7E75 /* DiaryVieeController2.swift in Sources */,
 				2622CCD121F375AC00BA71A6 /* PublishVoiceViewController.swift in Sources */,
-				26975C2F21FDC0E700B3175B /* SightViewController2.swift in Sources */,
+				26975C2F21FDC0E700B3175B /* SightDetailViewController.swift in Sources */,
 				2673852621F3140D00CCBC59 /* MyFriendViewController.swift in Sources */,
 				267384FC21F1D83B00CCBC59 /* PublishViewController.swift in Sources */,
 				26861AA222200312004FB677 /* DiaryDetailViewController.swift in Sources */,
@@ -656,6 +687,7 @@
 				26065D5C21F1D08500CAEBBB /* ViewController.swift in Sources */,
 				2673852421F313F800CCBC59 /* MyStorageViewController.swift in Sources */,
 				267384FA21F1D83100CCBC59 /* ViewController2.swift in Sources */,
+				26C1B3022224134F00EE805B /* CameraView.swift in Sources */,
 				26861A5B221C3E1F004FB677 /* MyViewController2.swift in Sources */,
 				26861A9E221FEDB8004FB677 /* BaseView.swift in Sources */,
 				26861A9A221FED06004FB677 /* ViewController0.swift in Sources */,
@@ -664,8 +696,10 @@
 				2673851621F2162600CCBC59 /* MessageViewController.swift in Sources */,
 				2673851E21F3023200CCBC59 /* SettingViewController.swift in Sources */,
 				26C570BC2219817B00DBA3C4 /* RegisterView.swift in Sources */,
+				2695ED8C222E2842008AB12C /* KiImageClipperViewController.swift in Sources */,
 				2673852221F313D500CCBC59 /* MyLikeVIewController.swift in Sources */,
 				26065D5A21F1D08500CAEBBB /* AppDelegate.swift in Sources */,
+				26451E1E22292F630077FDB1 /* Login.swift in Sources */,
 				2673850A21F1D8B600CCBC59 /* WordViewController.swift in Sources */,
 				2673850C21F1D8C500CCBC59 /* CameraViewController.swift in Sources */,
 				26C1B300222154AD00EE805B /* DiaryDetailView.swift in Sources */,
@@ -678,20 +712,24 @@
 				2673851321F2058A00CCBC59 /* SightViewController.swift in Sources */,
 				2673851921F2324900CCBC59 /* SearchViewController.swift in Sources */,
 				26975C332200341200B3175B /* MyTravelView.swift in Sources */,
+				2695ED92222E2AF4008AB12C /* testViewController.swift in Sources */,
 				26975C37220580B700B3175B /* WordView.swift in Sources */,
 				267384F821F1D82000CCBC59 /* HomeViewController.swift in Sources */,
 				267384FE21F1D84600CCBC59 /* BaseViewController.swift in Sources */,
 				26975C3121FDD50A00B3175B /* CityView.swift in Sources */,
 				2673850221F1D85700CCBC59 /* UIKit+Extension.swift in Sources */,
 				2668A3D621F5AE5A003C7E75 /* DiaryViewController1.swift in Sources */,
+				26303191222BB9A300117BE6 /* SightDetailView.swift in Sources */,
 				2622CCD521F4742C00BA71A6 /* PublishVioceVIewController2.swift in Sources */,
 				2673850821F1D88700CCBC59 /* TabBarViewController.swift in Sources */,
 				26861A9C221FED83004FB677 /* UnitView.swift in Sources */,
 				2673851B21F2326E00CCBC59 /* SearchBar.swift in Sources */,
 				2673850021F1D85000CCBC59 /* skin.swift in Sources */,
+				2695ED8E222E2A76008AB12C /* KiClipperView.swift in Sources */,
 				2668A3DA21F61ACA003C7E75 /* PublishView.swift in Sources */,
 				2622CCD321F376F800BA71A6 /* PublishVoiceView.swift in Sources */,
 				26861AA0221FEE61004FB677 /* Double+extension.swift in Sources */,
+				2695ED90222E2AB9008AB12C /* KiClipperHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

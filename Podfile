@@ -7,6 +7,7 @@ target 'application' do
     pod 'Alamofire'
     pod 'NIMSDK'
     pod 'RongCloudIM/IMLib', '~> 2.8.3'
-    pod 'RongCloudIM/IMKit', '~> 2.8.3' 
+    pod 'RongCloudIM/IMKit', '~> 2.8.3'
+    pod 'SwiftyJSON' 
 end
 

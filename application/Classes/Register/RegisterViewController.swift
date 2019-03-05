@@ -15,8 +15,9 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = " "
-       
+        //self.title = " "
+        
+       self.navigationController?.navigationBar.isTranslucent = true
         registerview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         self.view.addSubview(registerview)
        
@@ -30,6 +31,7 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
         registerview.RegisterButton.addTarget(self, action: #selector(RegisterAction), for: .touchUpInside)
         registerview.LoginChoiceButton.addTarget(self, action: #selector(Change), for: .touchUpInside)
         
+        
         // Do any additional setup after loading the view.
     }
     @objc func Change(){
@@ -41,6 +43,12 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
         let Client = Register(name: registerview.Username.text!, password: registerview.Password.text!)
         print(Client.name0)
         Client.GET1()
+        /*
+        let test:Int = Client.dict!["success"] as! Int
+        if test == 1 {
+            print("OK")
+        }
+ */
         
     }
     
@@ -48,6 +56,7 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         //print("我已经结束编辑状态...")
         print(textField.text!)
+        textField.resignFirstResponder()
     } // 文本框是否可以清除内容
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
         return true
@@ -57,7 +66,11 @@ class RegisterViewController: BaseViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?, _ textField: UITextField) {
+        textField.resignFirstResponder()
+    }
     
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

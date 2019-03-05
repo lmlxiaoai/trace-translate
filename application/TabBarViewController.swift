@@ -71,8 +71,8 @@ class TabBarViewController: UITabBarController {
  */
         
         
-        let  MyVC  = MyViewController()
-        MyVC.title = "我的"
+        let  MyVC  = LoginViewController()
+        //MyVC.title = "我的"
         let MyNav = UINavigationController(rootViewController:MyVC)
         MyNav.tabBarItem.title = "我的"
         MyNav.tabBarItem.image = UIImage(named:"My_0")

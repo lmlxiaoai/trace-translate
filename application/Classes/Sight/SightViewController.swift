@@ -79,7 +79,7 @@ class SightViewController: BaseViewController,UITableViewDataSource,UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         tableView.deselectRow(at: indexPath, animated: false)
-        self.navigationController?.pushViewController(SightViewController2(), animated: true)
+        self.navigationController?.pushViewController(SightDetailViewController(), animated: true)
         
     }
     

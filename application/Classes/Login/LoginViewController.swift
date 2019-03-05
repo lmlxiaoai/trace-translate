@@ -8,7 +8,7 @@
 
 import UIKit
 import Foundation
-
+import Alamofire
 
 class LoginViewController: BaseViewController, UITextFieldDelegate {
     
@@ -16,8 +16,9 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = " "
+        //self.title = " "
     
+        self.navigationController?.navigationBar.isTranslucent = true
         loginview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         self.view.addSubview(loginview)
         
@@ -36,15 +37,54 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
     
     @objc func Change(){
         
-        print("sss")
+       
         self.navigationController?.pushViewController(RegisterViewController(), animated: false)
     }
     
     @objc func LoginAction(){
+        
+        let password = loginview.Password.text!.md5String()
+        Alamofire.request("http://137.116.134.155:80/loginGet.php/?ema=\(loginview.Username.text)&pas=\(password)").responseJSON { response  in
+            print(response.request )  // original URL request
+            print(response.response) // HTTP URL response
+            print(response.data)     // server data
+            print(response.result)   // result of response serialization
+            
+            if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+                
+                let  datajosn:NSDictionary  = JSON as! NSDictionary
+                let test:String = datajosn["success"] as! String
+                if test == "1"{
+                    self.navigationController?.pushViewController(MyViewController(), animated: false)
+                }
+                
+            }
+            
+        }
+        
+        
         /*
-        let Client = Register(name: registerview.Username.text!, password: registerview.Password.text!)
+        let Client = Login(name: loginview.Username.text!, password: loginview.Password.text!)
         print(Client.name0)
         Client.GET1()
+        if Client.test != nil{
+            if Client.test == "0"{
+                print("fail")
+            }
+            else{
+                print("success")
+            }
+        }
+ */
+        /*
+        if Client.GET1() == true {
+            print("OK")
+            self.navigationController?.pushViewController(MyViewController(), animated: false)
+        }
+        else{
+            print("NO")
+        }
         */
     }
     

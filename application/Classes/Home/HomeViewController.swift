@@ -126,7 +126,7 @@ class HomeViewController: UIViewController {
     }
     @objc func SightButtonAction(){
         //self.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(SightViewController(), animated: true)
+        self.navigationController?.pushViewController(SightDetailViewController(), animated: true)
         self.hidesBottomBarWhenPushed = false
     }
     @objc func DiaryButtonAction(){

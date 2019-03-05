@@ -1,31 +1,35 @@
 //
-//  Register1.swift
+//  Login.swift
 //  application
 //
-//  Created by lmlxiaoai on 2019/2/17.
+//  Created by lmlxiaoai on 2019/3/1.
 //  Copyright © 2019 lmlxiaoai. All rights reserved.
 //
 
 import Foundation
 import Alamofire
 
-class Register{
+
+class Login{
     
     var name0: String
     var password0: String
     var dict:NSDictionary? = nil
+    var test:String? = nil
     
     init(name: String , password :String){
         name0 = name
         password0 = password
     }
-
+    
     func GET1()
         
     {
+        var issuccess: Bool = false
         
         var password = password0.md5String()
         /*
+        
         //对请求路径的说明
         
         //http://hd215.api.okayapi.com/?service=App.User.GetList&page=1&perpage=20&app_key=41D23E2DD383BE92FB2A5023AAF00371
@@ -42,7 +46,7 @@ class Register{
         
         
         
-        var url: NSURL = NSURL(string: "http://137.116.134.155:80/register.php/?ema=\(name0)&pas=\(password)")!
+        var url: NSURL = NSURL(string: "http://137.116.134.155:80/loginGet.php/?ema=\(name0)&pas=\(password)")!
         
         
         
@@ -76,7 +80,7 @@ class Register{
          
          */
         
-        var dataTask: URLSessionDataTask = session.dataTask(with: request as URLRequest) { (data, response, error) in
+        var dataTask: URLSessionDataTask = session.dataTask(with: request as URLRequest){ (data, respose, error) in
             
             
             
@@ -97,27 +101,47 @@ class Register{
                     
                     
                 }
-                
-                print(dict)
+                if dict!["success"] as! String == "1"{
+                    issuccess = true
+                    print("1")
+                }
+                else{
+                    issuccess = false
+                }
+                //print(dict!["success"] as Any)
                 
             }
             
         }
+ 
         
         //5.执行任务
         
         dataTask.resume()
-        */
-        Alamofire.request("http://137.116.134.155:80/register.php/?ema=\(name0)&pas=\(password)").responseJSON { response in
-            print(response.request)  // original URL request
-            print(response.response) // HTTP URL response
-            print(response.data)     // server data
+        
+        
+        print("2")
+        return issuccess
+ */
+        
+        Alamofire.request("http://137.116.134.155:80/loginGet.php/?ema=\(name0)&pas=\(password)").responseJSON { response  in
+            print(response.request as Any)  // original URL request
+            print(response.response as Any) // HTTP URL response
+            print(response.data as Any)     // server data
             print(response.result)   // result of response serialization
+            
             if let JSON = response.result.value {
                 print("JSON: \(JSON)")
+                
+                var  datajosn:NSDictionary  = JSON as! NSDictionary
+                var test:String = datajosn["success"] as! String
+                //print(test)
+ 
             }
-            
+ 
         }
-        return
+        if test != nil{
+            print(test)
+        }
     }
 }

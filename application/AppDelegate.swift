@@ -16,12 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /*
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = TabBarViewController()
+        //window?.rootViewController = RegisterViewController()
         //window?.rootViewController = LoginViewController()
         //window?.rootViewController = DiaryDetailViewController()
-        //window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()   
+        //window?.rootViewController = testViewController()
+        window?.makeKeyAndVisible()
+ */
+ 
+        let VC = testViewController()
+        let nav = UINavigationController(rootViewController: VC)
+        self.window?.rootViewController = nav
+ 
         return true
     }
 
